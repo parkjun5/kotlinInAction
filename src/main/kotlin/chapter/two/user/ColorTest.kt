@@ -1,9 +1,9 @@
-package user
+package chapter.two.user
 
-import datamodel.Color
-import datamodel.getMnemonic
-import datamodel.getWarmth
-import datamodel.mix
+import chapter.two.datamodel.Color
+import chapter.two.datamodel.getMnemonic
+import chapter.two.datamodel.getWarmth
+import chapter.two.datamodel.mix
 
 fun main() {
     val blue = Color.BLUE

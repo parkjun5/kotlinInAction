@@ -1,6 +1,6 @@
-package user
+package chapter.two.user
 
-import domain.Human
+import chapter.two.domain.Human
 
 fun main() {
     val human = Human("박세준", false)

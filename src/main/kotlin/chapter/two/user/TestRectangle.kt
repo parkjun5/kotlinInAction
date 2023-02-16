@@ -1,7 +1,7 @@
-package user
+package chapter.two.user
 
-import domain.Rectangle
-import domain.createRandomRectangle
+import chapter.two.domain.Rectangle
+import chapter.two.domain.createRandomRectangle
 
 fun main() {
     val notSquare = Rectangle(10, 5)

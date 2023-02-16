@@ -1,4 +1,4 @@
-package domain
+package chapter.two.domain
 
 class Human (
     val name: String,

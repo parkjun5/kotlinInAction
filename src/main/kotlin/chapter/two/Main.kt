@@ -1,3 +1,5 @@
+package chapter.two
+
 import java.util.Random
 
 fun main(args: Array<String>) {

@@ -1,8 +1,8 @@
-package domain
+package chapter.two.domain
 
-import datainterface.Expr
-import datainterface.Num
-import datainterface.Sum
+import chapter.two.datainterface.Expr
+import chapter.two.datainterface.Num
+import chapter.two.datainterface.Sum
 
 fun main() {
     println(Num(1).value)

@@ -1,4 +1,4 @@
-package domain
+package chapter.two.domain
 
 import java.util.Random
 

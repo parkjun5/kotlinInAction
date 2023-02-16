@@ -1,4 +1,4 @@
-package datainterface
+package chapter.two.datainterface
 
 interface Expr
 class Num(val value: Int) : Expr

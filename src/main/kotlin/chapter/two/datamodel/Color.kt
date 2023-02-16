@@ -1,6 +1,6 @@
-package datamodel
+package chapter.two.datamodel
 
-import datamodel.Color.*
+import chapter.two.datamodel.Color.*
 
 enum class Color (val r: Int, val g: Int, val b: Int) {
     RED(255, 0, 0), ORANGE(255, 165, 0),
