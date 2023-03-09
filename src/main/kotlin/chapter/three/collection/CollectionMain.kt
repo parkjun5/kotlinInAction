@@ -12,9 +12,17 @@ fun main() {
         }
     println(findAny)
     val listOf = listOf("Kotlin", null, "from", null, null, "this")
+
+    for (item in listOf) item?.let { println(it) }
+
     for (item in listOf) {
-        item?.let { println(it) }
+        if (item != null) {
+            println(item);
+        }
     }
+
+    listOf.filterNotNull().toList()
+
 
     val list = arrayListOf(1, 2, 3)
     println(list.max())
